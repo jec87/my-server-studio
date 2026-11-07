@@ -18,10 +18,10 @@ An explicitly agreed adoption of a matching existing deployment is recorded
 as adoption, not a fresh launch. This bounded lesson does not certify the whole
 server baseline or a vulnerability-free image.
 
-- **Public hostname:** Pending.
-- **New launch or adopted deployment, and reason:** Pending.
-- **Own issue / feature branch:** Pending.
-- **Agreed scope or actual access/configuration gap:** Pending.
+- **Public hostname:** https://calc.jiyeonchoi.xyz (HTTPS verification pending).
+- **New launch or adopted deployment, and reason:** New launch of the supplied calculator image; subsequently recognized as reuse-managed.
+- **Own issue / feature branch:** https://github.com/jec87/my-server-studio/issues/1 / studio-001.
+- **Agreed scope or actual access/configuration gap:** Use existing Docker, Traefik, and hosting-web network while preserving other services. Calculator started, but DNS reactivation blocks HTTPS verification.
 
 Private SSH targets and configuration stay in ignored local state. Share only
 reviewed, selected evidence; never commit credentials or raw server output.
