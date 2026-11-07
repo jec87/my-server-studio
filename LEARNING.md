@@ -14,19 +14,19 @@ Pending.
 
 ## Check interpretation
 
-Pending.
+Black and Pylint passed. The fast pytest checks passed with 91 tests and 2 deselected. Browser E2E was not run, and hosted HTTPS verification remains incomplete.
 
 ## Browser observation
 
-Pending.
+I tested the instructor's example calculator at calc.mywebclass.org. I entered 6 × 7 and received 42. I have not yet confirmed this result on my own public hostname.
 
 ## Keep decision
 
-Pending.
+Keep the new calculator deployment because the container started and the studio recognized it as reuse-managed. Do not mark the studio complete until DNS, HTTPS, and hosted verification pass.
 
 ## Review
 
-Pending.
+Reviewed the deployment and test results with AI assistance. Existing Docker and Traefik services were not intentionally replaced. Preservation of all unrelated services and public HTTPS still require verification.
 
 ## AI work and next step
 
