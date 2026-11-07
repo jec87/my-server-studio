@@ -10,7 +10,7 @@ Label role-play honestly rather than treating it as an actual learner response.
 
 ## Prediction
 
-Pending.
+My prediction: Browser → DNS → Traefik → calculator container. DNS resolves the hostname to my server, Traefik routes the HTTPS request, and the calculator container handles it.
 
 ## Check interpretation
 
